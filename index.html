@@ -1,5 +1,17 @@
 <!DOCTYPE html>
 <html>
-	<head></head>
-	<body><h1>WELCOME</h1></body>
+	<head>
+		<title>KawaiiChef</title>
+	</head>
+	<body>
+		<text id="note"></text>
+		<script type="text/javascript">
+			var ua = window.navigator.userAgent.toLocalLowerCase()
+			if(/iphone|ipad/.test(UA)){
+				window.location.href="https://www.baidu.com"
+			}else{
+				document.getElementById("note").innerHTML="no support"
+			}
+		</script>
+	</body>
 </html>
