@@ -6,8 +6,8 @@
 	<body>
 		<text id="note"></text>
 		<script type="text/javascript">
-			var ua = window.navigator.userAgent.toLocalLowerCase()
-			if(/iphone|ipad/.test(UA)){
+			var ua = window.navigator.userAgent.toLocaleLowerCase()
+			if(/iphone|ipad/.test(ua)){
 				window.location.href="https://www.baidu.com"
 			}else{
 				document.getElementById("note").innerHTML="no support"
